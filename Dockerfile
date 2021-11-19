@@ -23,7 +23,7 @@ EXPOSE 5000
 CMD ["npm", "start"]
 
 # then run build command to create an image
-# docker build -t dockerusername/appname:version# .
+# docker build . -t dockerusername/appname:version#
 
 # to create a container from the image, get the image id and do docker run --rm -p 5000:5000 <id>
 
